@@ -1,0 +1,37 @@
+
+.logo{
+    align-items:center;
+    display: flex;
+}
+.logo img{
+    height: 48px;
+    width: 48px;
+}
+.logo span{
+    font-size: 24px;
+    margin-left: 5px;
+}
+.leftContainer{
+    float: left;
+    width:400px;
+}
+.tabNews{
+    padding: 0 10px;
+}
+
+.topNewsList{
+    padding-top: 10px;
+}
+.imageblock {
+    float: left;
+}
+.tabNews a{
+    font-size:14px;
+    color: #4c4c4c;
+}
+.custom-card {
+    padding: 5px;
+}
+.custom-card p {
+    color: #999;
+}

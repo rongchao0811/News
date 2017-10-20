@@ -1,0 +1,39 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/js/ root.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "zhao",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.13.4",
+    "antd-mobile": "^1.6.11",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "css-loader": "0.25.0",
+    "fetch": "^1.1.0",
+    "file-loader": "^1.1.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-responsive": "^2.0.0",
+    "react-router": "^2.8.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^3.0.0-alpha.3",
+    "less-loader": "^4.0.5",
+    "svg-sprite-loader": "^0.3.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
